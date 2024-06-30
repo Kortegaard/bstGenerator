@@ -1,3 +1,3 @@
-module github.com/kortegaard/bstGenerator v0.1.0
+module github.com/kortegaard/bstGenerator
 
 go 1.22.3

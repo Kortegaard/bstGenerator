@@ -2,7 +2,7 @@ package main
 
 import(
     "os"
-    "github.com/Kortegaard/bstGenerator/bstBuilder"
+    "github.com/kortegaard/bstGenerator/bstBuilder"
 ) 
 
 
