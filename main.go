@@ -2,8 +2,7 @@ package main
 
 import(
     "os"
-    //"fmt" 
-    "bst_generator/bstBuilder"
+    "github.com/Kortegaard/bstGenerator/bstBuilder"
 ) 
 
 

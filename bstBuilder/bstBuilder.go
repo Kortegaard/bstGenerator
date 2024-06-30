@@ -2,8 +2,8 @@ package bstBuilder
 
 import(
     "strings"
-    "bst_generator/functionBuilder"
-    "bst_generator/entryFormatter"
+    "github.com/Kortegaard/bstGenerator/functionBuilder"
+    "github.com/Kortegaard/bstGenerator/entryFormatter"
 ) 
 
 func InitBaseBstBuilder() BSTBuilder{
@@ -67,7 +67,6 @@ func (b BSTBuilder) mBuildAfterSort() string{
 }
 
 func (b BSTBuilder) Build() string{
-
     res := ""
     res += "ENTRY{\n"
     res += b.mBuildFields() + "\n"

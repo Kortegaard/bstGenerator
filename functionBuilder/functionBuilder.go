@@ -1,5 +1,14 @@
 package functionBuilder
 
+type Function struct{
+    name string
+    pos string
+}
+
+type BstComponent struct{
+    functions []Function
+}
+
 
 func FormatAuthors(authorFormat string) string{
     var l = `FUNCTION {write.authors}{
@@ -73,6 +82,8 @@ FUNCTION {or}
 
 
 
+
+//func ConstructLabels() string{
 func WriteLabelConstructor() string{
     return `FUNCTION {construct.label}{
     author 's :=
