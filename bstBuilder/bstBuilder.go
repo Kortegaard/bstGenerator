@@ -2,8 +2,8 @@ package bstBuilder
 
 import(
     "strings"
-    "github.com/Kortegaard/bstGenerator/functionBuilder"
-    "github.com/Kortegaard/bstGenerator/entryFormatter"
+    "github.com/kortegaard/bstGenerator/functionBuilder"
+    "github.com/kortegaard/bstGenerator/entryFormatter"
 ) 
 
 func InitBaseBstBuilder() BSTBuilder{
